@@ -1,6 +1,3 @@
-FROM nginx
-copy index.html/user 
-
 pipeline {
     agent any 
     satge('checkout'){
